@@ -27,7 +27,7 @@ Xtern 2024 Artificial Intelligence Data Set
 
 (25%)  Given the data set, do a quick exploratory data analysis to get a feel for the distributions and biases of the data.  Report any visualizations and findings used and suggest any other impactful business use cases for that data.
 
-=> 
+### => 
 ### Based on the analysis, it appears that there is an even distribution of orders among 10 possible choices. However, when we look at the University, Major, Year, and Time columns, we notice significant variations in the amount of data. Some universities and majors have a lot of data, while others have very little. For instance, Butler University and IU students are frequent customers, while there's only one data point for Purdue University Students. With this information, FoodX could adapt its business strategy to focus on the universities that order from them the most, as they constitute the majority of their customer base. Most customers are in their 2nd or 3rd year, with 1st and 4th-year students making up a tiny portion. Moreover, the bulk of orders occur during lunchtime (11-14), with very few orders at other times. Consequently, FoodX could consider adjusting its operating hours to maximize profits during this peak period and closing during other times.
 
 (30%) Consider implications of data collection, storage, and data biases you would consider relevant here considering Data Ethics, Business Outcomes, and Technical Implications
@@ -36,7 +36,7 @@ Discuss Ethical implications of these factors
 Discuss Business outcome implications of these factors
 Discuss Technical implications of these factors
 
-=> 
+### => 
 ### Ethical Considerations: It is crucial to address the ethical aspects of using this dataset. Without the explicit consent of the students, it would be unethical to utilize their data for profit and decision-making. FoodX should inform users that their data may be used for analysis and guiding business decisions, providing an opt-out option at any time. Additionally, stringent security measures should be in place to protect the data from potential breaches, and personal identifiers such as names and birthdays must be removed to ensure the legality and ethics of data usage.
 
 ### Business Implications: The success of data analysis and machine learning hinges on the quality and relevance of the data collected. Therefore, FoodX must ensure the data is meaningful, as poor-quality or irrelevant data can lead to ineffective results. Compliance with data collection and storage laws is also paramount, as any legal controversies could harm the company's public image.
@@ -50,8 +50,40 @@ Design a function that prepares your data by loading the provided dataset and pr
 Design a function to train your model and pickle it.
 Train and test your model.  Submit any training, testing and model selection visuals or metrics.
 Upload your work to GitHub and link the repository, make sure it is public.
+
+### =>
+### Data Preparation:
+
+I began by loading the data using Pandas and examined its structure.
+Recognizing that most columns contained categorical values, I realized the need for encoding these categorical values into numerical form.
+Employed the Label Encoder from Scikit-Learn to perform this numerical encoding for each categorical column.
+The dataset was then split into training and testing sets using an 80/20 split with train_test_split.
+
+### Model Selection:
+
+Considering the task required classification into multiple classes (representing different orders), I opted for the Random Forest Classifier.
+The Random Forest model was chosen because it introduces randomness, reducing variance and the risk of overfitting.
+
+### Model Training and Testing:
+
+I fit the Random Forest model using the training data, both X_train and y_train.
+The model's performance was assessed by evaluating its accuracy on both the training and testing datasets using the score() method.
+
+### Model Saving:
+
+The trained Random Forest model was saved using Pickle, providing a means for future use.
+
+### Results and Visualizations:
+
+The trained model achieved a train accuracy of 0.75 and a test accuracy of 0.67, indicating its classification performance.
+I generated a confusion matrix to assess the model's performance.
+
 (10%) Given the work required to bring a solution like this to maturity and its performance, what considerations would you make to determine if this is a suitable course of action?
 
+### =>
+### I would first evaluate the necessity of collecting data related to a student's major, academic year, university, and the time they place their food order. These variables, with the exception of the order time, may not appear to have a direct correlation with food preferences. They could, however, be valuable for other purposes, like identifying peak times for the food truck at specific universities. I would explore alternative data points that could better reflect a student's food preferences.
+
+### Furthermore, I would prioritize preventing bias in my dataset and aim to cater to a diverse audience. This would involve implementing measures to ensure a fair and representative sample of students' food preferences, thereby avoiding any skewed or unbalanced data.
 
 Resources
 
