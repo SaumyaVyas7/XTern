@@ -1,0 +1,6 @@
+leg,start_location,start_address,end_location,end_address,walk_distance,walk_time,drive_distance,drive_time,end_location_rating,hours,serve_beer,serve_wine,method
+1,Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",Gaucho's Fire Express,"906 Carrollton Ave Suite 320, Indianapolis, IN 46202, USA",1.9 mi,43 mins,2.2 mi,11 mins,4.7,10:00AM-10:00PM,True,n/a,drive
+2,Gaucho's Fire Express,"906 Carrollton Ave Suite 320, Indianapolis, IN 46202, USA",Tacos El Iturbidense,"6402 W 10th St, Indianapolis, IN 46214, USA",7.1 mi,2 hours 39 mins,13.3 mi,21 mins,4.7,6:00PM-12:00AM,n/a,n/a,drive
+3,Tacos El Iturbidense,"6402 W 10th St, Indianapolis, IN 46214, USA",Birrieria Iturbidense,"6302 W Washington St, Indianapolis, IN 46241, USA",2.3 mi,52 mins,2.9 mi,6 mins,4.7,6:00PM-12:00AM,True,n/a,drive
+4,Birrieria Iturbidense,"6302 W Washington St, Indianapolis, IN 46241, USA",El Amigo Taqueria Food Truck,"3356 W 16th St, Indianapolis, IN 46222, USA",5.1 mi,1 hour 54 mins,6.2 mi,14 mins,4.3,12:00PM-12:00AM,n/a,n/a,drive
+5,El Amigo Taqueria Food Truck,"3356 W 16th St, Indianapolis, IN 46222, USA",Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",4.2 mi,1 hour 33 mins,4.6 mi,13 mins,-,-,-,-,drive
