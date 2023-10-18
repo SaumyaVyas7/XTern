@@ -1,6 +1,0 @@
-leg,start_location,start_address,end_location,end_address,walk_distance,walk_time,drive_distance,drive_time,end_location_rating,hours,serve_beer,serve_wine,method
-1,Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",KG Slider Station,"3748 Lafayette Rd, Indianapolis, IN 46222, USA",6.7 mi,2 hours 29 mins,7.8 mi,16 mins,5.0,11:00AM-10:00PM,False,False,drive
-2,KG Slider Station,"3748 Lafayette Rd, Indianapolis, IN 46222, USA",Pico de Gallo Food Truck,"3014 Lafayette Rd #3000, Indianapolis, IN 46222, USA",1.2 mi,26 mins,1.2 mi,4 mins,4.5,5:00PM-1:00AM,False,False,walk
-3,Pico de Gallo Food Truck,"3014 Lafayette Rd #3000, Indianapolis, IN 46222, USA",Tacos y tortas arroyo,"2120 W Morris St, Indianapolis, IN 46221, USA",4.9 mi,1 hour 48 mins,4.7 mi,14 mins,5.0,6:00PM-12:00AM,n/a,n/a,drive
-4,Tacos y tortas arroyo,"2120 W Morris St, Indianapolis, IN 46221, USA",FELIX TACOS TRUCK,"3145 W Washington St, Indianapolis, IN 46222, USA",1.7 mi,37 mins,1.8 mi,6 mins,4.5,5:00PM-12:00AM,False,False,drive
-5,FELIX TACOS TRUCK,"3145 W Washington St, Indianapolis, IN 46222, USA",Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",3.0 mi,1 hour 5 mins,3.1 mi,10 mins,n/a,-,-,-,drive
