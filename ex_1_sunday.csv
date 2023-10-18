@@ -1,0 +1,6 @@
+leg,start_location,start_address,end_location,end_address,walk_distance,walk_time,drive_distance,drive_time,end_location_rating,hours,serve_beer,serve_wine,method
+1,Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",ClusterTruck - Broad Ripple,"2101 E 62nd St, Indianapolis, IN 46220, USA",8.4 mi,3 hours 9 mins,10.7 mi,23 mins,4.9,10:00AM-11:00PM,n/a,n/a,drive
+2,ClusterTruck - Broad Ripple,"2101 E 62nd St, Indianapolis, IN 46220, USA",Pico de Gallo Food Truck,"3014 Lafayette Rd #3000, Indianapolis, IN 46222, USA",8.0 mi,2 hours 55 mins,8.9 mi,21 mins,4.5,5:00PM-1:00AM,False,False,drive
+3,Pico de Gallo Food Truck,"3014 Lafayette Rd #3000, Indianapolis, IN 46222, USA",Birrieria Iturbidense,"6302 W Washington St, Indianapolis, IN 46241, USA",6.6 mi,2 hours 28 mins,9.3 mi,17 mins,4.7,6:00PM-12:00AM,True,n/a,drive
+4,Birrieria Iturbidense,"6302 W Washington St, Indianapolis, IN 46241, USA",El Buenavista Food Truck,"5210 English Ave, Indianapolis, IN 46219, USA",10.6 mi,3 hours 58 mins,13.6 mi,23 mins,5.0,1:59PM-4:59AM,n/a,n/a,drive
+5,El Buenavista Food Truck,"5210 English Ave, Indianapolis, IN 46219, USA",Indianapolis Bus Station,"350 S Illinois St, Indianapolis, IN 46225, USA",4.4 mi,1 hour 38 mins,4.5 mi,14 mins,n/a,-,-,-,drive
